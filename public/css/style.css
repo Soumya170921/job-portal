@@ -1,0 +1,7 @@
+body{ font-family: Arial, sans-serif; margin:0; padding:0; background:#f7f9fb; color:#222;}
+.container{ max-width:1000px; margin:30px auto; padding:20px; background:white; box-shadow:0 2px 8px rgba(0,0,0,0.06);}
+.header{display:flex; justify-content:space-between; align-items:center;}
+.job-card{border:1px solid #e6e9ee; padding:15px; margin:10px 0; border-radius:6px;}
+.btn{display:inline-block;padding:8px 12px;border-radius:6px;text-decoration:none;background:#1e8f7a;color:white;}
+.form-row{margin-bottom:12px;}
+input, textarea, select{width:100%; padding:8px; border:1px solid #ddd; border-radius:4px;}

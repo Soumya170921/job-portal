@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Job Portal - Home</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Job Portal</h1>
+      <div>
+        <a href="/login.html" class="btn">Login</a>
+        <a href="/register.html" class="btn">Register</a>
+      </div>
+    </div>
+    <div style="margin-top:18px">
+      <input id="q" placeholder="Search jobs, title, description..." />
+      <input id="location" placeholder="Location" style="margin-top:8px"/>
+      <button id="searchBtn" class="btn" style="margin-top:8px">Search</button>
+    </div>
+    <h3 style="margin-top:20px">Jobs</h3>
+    <div id="jobsList"></div>
+  </div>
+  <script src="/js/jobs.js"></script>
+</body>
+</html>
